@@ -1,0 +1,9 @@
+/* Completely optional. */
+
+body {
+  background-color: white;
+}
+
+#retainsize {
+  list-style-type: none;
+}

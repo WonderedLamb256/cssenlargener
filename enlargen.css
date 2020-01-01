@@ -1,0 +1,39 @@
+/**********INTERACTIVE*ENLARGENER**********/
+
+/* Animations */
+@keyframes enlargen-animation {
+  0% {
+    width: 25%;
+    height: 25%;
+  }
+  100% { /* was originally 50% */
+    width: 50%;
+    height: 50%;
+  }
+  /*100% { [BROKEN]
+    width: 75%;
+    height: 75%;
+  }*/
+}
+/* Enlargening class for images */
+
+.enlargen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+}
+
+.enlargen:hover {
+  z-index: 999;
+  animation-name: enlargen-animation;
+  animation-duration: 5s;
+}
+
+
+
+
+
+
+/*[Open source under GPLv3 license]*******/
